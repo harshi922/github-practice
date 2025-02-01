@@ -68,7 +68,19 @@ git config --global core.editor emacs
 ```
 Make commit without opening editor 
 ```sh
-git commit -m "msg"
+git commit -m "msg" --author="sth<sth@sth.com>"
+```
+Make commit with auto stage all 
+```sh
+git commit -a -m "msg"
+```
+Make commit with mod to last commit  
+```sh
+git commit --amend 
+```
+Make commit first - empty  
+```sh
+git commit -m "init commit" --allow-empty
 ```
 ## Branches
 ```sh 
