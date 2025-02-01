@@ -95,6 +95,27 @@ git branch branch-name
 git checkout branch-name 
 ```
 >checkout branch
+
+```sh 
+git checkout -b branch-name 
+```
+>checkout+make branch
+
+```sh 
+git branch -d branch-name 
+```
+>del branch
+
+```sh 
+git branch -m old-name new-name
+```
+>rename branch
+
+```sh 
+git branch -a
+```
+>list local and remote branch
+
 ## Remotes
 ```sh
 git remote add ... 
